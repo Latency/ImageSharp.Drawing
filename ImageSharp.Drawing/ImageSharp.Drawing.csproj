@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <Description>An extension to ImageSharp that allows the drawing of images, paths, and text.</Description>
+        <AssemblyTitle>SixLabors.ImageSharp.Drawing</AssemblyTitle>
+        <RootNamespace>SixLabors.ImageSharp.Drawing</RootNamespace>
+        <Authors>SixLabors and contributors</Authors>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <AssemblyName>SixLabors.ImageSharp.Drawing</AssemblyName>
+        <Company>Six Labors</Company>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <PackageId>SixLabors.ImageSharp.Drawing</PackageId>
+        <PackageTags>Image Draw Shape Path Font</PackageTags>
+        <PackageIconUrl>https://raw.githubusercontent.com/SixLabors/ImageSharp/master/build/icons/imagesharp-logo-128.png</PackageIconUrl>
+        <PackageProjectUrl>https://github.com/Latency/ImageSharp.Drawing</PackageProjectUrl>
+        <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+        <RepositoryType>GIT</RepositoryType>
+        <RepositoryUrl>https://github.com/Latency/ImageSharp.Drawing</RepositoryUrl>
+        <TargetFrameworks>netstandard1.1;netstandard1.3;netstandard1.6;netstandard2.0;netcoreapp2.0;net45;net471</TargetFrameworks>
+        <SignAssembly>true</SignAssembly>
+        <AssemblyOriginatorKeyFile>snKey.snk</AssemblyOriginatorKeyFile>
+        <Version>1.0.1-rc</Version>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <FileVersion>1.0.1.0</FileVersion>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="SixLabors.Fonts" Version="1.0.1" />
+        <PackageReference Include="SixLabors.ImageSharp" Version="1.0.1-rc" />
+        <PackageReference Include="SixLabors.Shapes" Version="1.0.1" />
+        <PackageReference Include="SixLabors.Shapes.Text" Version="1.0.1" />
+    </ItemGroup>
+</Project>
